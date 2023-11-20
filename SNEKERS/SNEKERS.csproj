@@ -46,16 +46,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="arreglosForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="arreglosForms.Designer.cs">
+      <DependentUpon>arreglosForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="colaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="colaForm.Designer.cs">
+      <DependentUpon>colaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="listasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listasForm.Designer.cs">
+      <DependentUpon>listasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pilaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pilaForm.Designer.cs">
+      <DependentUpon>pilaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="principalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="principalForm.Designer.cs">
+      <DependentUpon>principalForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="arreglosForms.resx">
+      <DependentUpon>arreglosForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="colaForm.resx">
+      <DependentUpon>colaForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listasForm.resx">
+      <DependentUpon>listasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pilaForm.resx">
+      <DependentUpon>pilaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="principalForm.resx">
+      <DependentUpon>principalForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

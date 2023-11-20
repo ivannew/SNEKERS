@@ -75,5 +75,52 @@ namespace SNEKERS
         {
 
         }
+        private void PanelCambio(object formpieza)
+        {
+            if (this.panel3.Controls.Count > 0)
+                this.panel3.Controls.RemoveAt(0);
+            Form fh = formpieza as Form;
+            fh.TopLevel = false;
+            fh.Dock= DockStyle.Fill;
+            this.panel3.Controls.Add(fh);
+            this.panel3.Tag = fh;
+            fh.Show();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+       
+        }
+
+        private void btnarrelgo_Click(object sender, EventArgs e)
+        {
+            PanelCambio(new arreglosForms());
+        }
+
+        private void btnlista_Click(object sender, EventArgs e)
+        {
+            PanelCambio(new listasForm());
+
+        }
+
+        private void butnpila_Click(object sender, EventArgs e)
+        {
+            PanelCambio(new pilaForm());
+        }
+
+        private void btncola_Click(object sender, EventArgs e)
+        {
+            PanelCambio(new colaForm());
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+        
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            PanelCambio(new principalForm());
+        }
     }
 }
