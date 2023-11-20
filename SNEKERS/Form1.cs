@@ -120,7 +120,8 @@ namespace SNEKERS
 
         private void btnsalir_Click(object sender, EventArgs e)
         {
-            PanelCambio(new principalForm());
+            PanelCambio(new Form1());
         }
+   
     }
 }

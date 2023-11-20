@@ -84,6 +84,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sneakers.cs" />
     <EmbeddedResource Include="arreglosForms.resx">
       <DependentUpon>arreglosForms.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +146,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\3f1d23af98bef2411d26fe5aba404916 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nike-logo-png-white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adidas_Yeezy_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\air-jordan-logo-66B3A1FAAF-seeklogo.com.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -103,9 +103,39 @@ namespace SNEKERS.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Adidas_Yeezy_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Adidas_Yeezy_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap air_jordan_logo_66B3A1FAAF_seeklogo_com {
+            get {
+                object obj = ResourceManager.GetObject("air_jordan_logo_66B3A1FAAF_seeklogo_com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura {
             get {
                 object obj = ResourceManager.GetObject("Captura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nike_logo_png_white {
+            get {
+                object obj = ResourceManager.GetObject("Nike_logo_png_white", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
